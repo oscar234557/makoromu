@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <title>Hospital</title>
+ 
+  <link rel="icon" type="image/x-icon" href="cr.ico" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+    <style>
+   
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+      
+        .header-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+    
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #007BFF;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 16px;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+            border-radius: 4px;
+            transform: scale(1.05);
+        }
+
+    
+        .gt {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 250px;
+            margin: 20px 0;
+        }
+
+        .gaf
+         {
+            display: flex;
+            width: calc(250px * 6); 
+            animation: scroll 20s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .gt img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover; 
+            margin-right: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+      
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .message {
+            flex: 1 1 300px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .news {
+            flex: 1 1 300px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+     
+        .view-more {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .view-more h1 {
+            margin-bottom: 10px;
+        }
+
+        .social-icons a {
+            margin: 0 15px;
+            font-size: 2em;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #007BFF;
+        }
+
+      
+        @media(max-width: 768px){
+            nav {
+                flex-direction: column;
+            }
+            .gt {
+                height: 150px;
+            }
+            .gt img {
+                width: 150px;
+                height: 150px;
+            }
+	
+        }
+        
+      
+   
+   
+   
+    </style>
+</head>
+<body>
+
+    
+           
+
+    <img src="image/sa.PNG" alt="Hospital Banner" class="header-img" />
+
+  
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="service.html">Services</a>
+        <a href="commu.html">Helps</a>
+        <a href="more.html">Comment</a>
+    </nav>
+
+    <div class="gt">
+        <div class="gaf">
+            <img src="gg.JFIF" alt="Image 1" />
+            <img src="rr.JFIF" alt="Image 2" />
+            <img src="ttt.jpg" alt="Image 3" />
+            <img src="gg.JFIF" alt="Image 1" />
+            <img src="rr.JFIF" alt="Image 2" />
+            <img src="ttt.jpg" alt="Image 3" />
+        </div>
+    </div>
+
+   
+    <div class="content">
+     
+        <div class="message">
+            <img src="doc.PNG" alt="CEO" style="width:200px; height:100px; object-fit:contain; border-radius:8px;">
+            <h1>Message from CEO</h1>
+            <p>my name is oscar  makakoromu i am a head doctor od <br>of nation  hospital so i welcome you to gain professional<br> careless i know that  she/he  want  professionally careless<br> so  time is this please welcome </p>
+        </div>
+
+    
+        <div class="news">
+            <h1>NEWS & EVENTS</h1>
+            <ul>
+                <li>Clinic</li>
+                <li>Afya ya uzazi</li>
+                <li>Upasuaji</li>
+                <li>Eye clinic</li>
+            </ul>
+        </div>
+
+      
+        <div class="view-more">
+            <h1>VIEW MORE</h1>
+            <div class="social-icons">
+                <a href="https://www.google.com" target="_blank" aria-label="Google">
+                    <i class="fab fa-google"></i><br>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i><br>
+                </a>
+                <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i><br>
+                </a>
+				<a href="https://www.instagram.com" target="_blank" aria-label="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+
+	
+</body>
+</html>
